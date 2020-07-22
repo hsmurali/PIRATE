@@ -36,7 +36,7 @@ This clustering step was intended to identify genomic segments that reoccur acro
         <td>   
         </td>
         <td> 
-              <p align="center"><img src="img/Cluster-50.png" width=400/></p>
+              <p align="center"><img src="img/Cluster-50.png" width=500/></p>
               <p align="center"><em>Analysis of Cluster-50</em></p>   
         </td>
     </tr>
