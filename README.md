@@ -17,7 +17,7 @@ We observed contigs with phage elements in insertion-deletion (indel bubbles) an
 We aligned the contigs identified from predicted structural variants to crAssphage, a 97kb circular phage that was computationally identified and is prevalent in human fecal samples4. A third of the contigs aligning to crAssphage were found in the predicted interspersed repeats and 18% of these contigs were found in indel bubbles predicted by MetaCarvel. This suggests that MetaCarvel structural variants could be used to identify potentially novel phage. In the adjoining figure we show a crAssphage element found in an interspersed repeat, 
 
 
-![crAssphage in a Interspersed Repeat](img/crAsphage-Graph.jpeg)
+![crAssphage in a Interspersed Repeat](img/crAsphage-Graph.jpeg| width=300)
 
 
 To search for novel phages, we collected contigs belonging to bubbles and repeats within the 208 HMP stool samples. We then aligned these contigs against the NCBI non-redundant database and limited our focus  to 78,147 contigs greater than 3kbp that had no confident matches, and thus are potentially novel microbes. .We used MASH to group together the filtered contigs that had  similar sequence composition. The schematic pipeline is described below:
