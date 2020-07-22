@@ -18,7 +18,7 @@ We aligned the contigs identified from predicted structural variants to crAsspha
 
 
 <p align="center">
-  <img src="img/crAsphage-Graph.png" />
+  <img src="img/crAsphage-Graph.jpeg" />
 </p>
 
 To search for novel phages, we collected contigs belonging to bubbles and repeats within the 208 HMP stool samples. We then aligned these contigs against the NCBI non-redundant database and limited our focus  to 78,147 contigs greater than 3kbp that had no confident matches, and thus are potentially novel microbes. .We used MASH to group together the filtered contigs that had  similar sequence composition. The schematic pipeline is described below:
