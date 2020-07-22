@@ -55,8 +55,3 @@ We have demonstrated that certain motifs within assembly graphs are enriched for
 3. Ondov, B. D. et al. Mash: fast genome and metagenome distance estimation using MinHash. Genome Biology vol. 17 (2016).
 
 4. Edwards, R. A. et al. Global phylogeography and ancient evolution of the widespread human gut           virus crAssphage. Nat Microbiol 4, 1727–1736 (2019).
-
-
-```python
-
-```
