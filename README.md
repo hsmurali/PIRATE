@@ -33,8 +33,6 @@ This clustering step was intended to identify genomic segments that reoccur acro
               <p align="center"><img src="img/Histogram-Phage-Prescence.png" width=375/></p>
               <p align="center"><em>Histogram of phages specific and prevalent across the environment.</em></p>
         </td>
-        <td>   
-        </td>
         <td> 
               <p align="center"><img src="img/Cluster-50.png" width=450/></p>
               <p align="center"><em>Analysis of Cluster-50</em></p>   
