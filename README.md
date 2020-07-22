@@ -18,20 +18,20 @@ We aligned the contigs identified from predicted structural variants to crAsspha
 
 
 <p align="center">
-  <img src="img/crAsphage-Graph.jpeg" width=300/>
+  <img src="img/crAsphage-Graph.jpeg" width=500/>
 </p>
 
 To search for novel phages, we collected contigs belonging to bubbles and repeats within the 208 HMP stool samples. We then aligned these contigs against the NCBI non-redundant database and limited our focus  to 78,147 contigs greater than 3kbp that had no confident matches, and thus are potentially novel microbes. .We used MASH to group together the filtered contigs that had  similar sequence composition. The schematic pipeline is described below:
 
-<img src="img/Pipeline-Schematic.png" width=800> 
+<p align="center"><img src="img/Pipeline-Schematic.png" width=800></p> 
 
 This clustering step was intended to identify genomic segments that reoccur across samples, and are, therefore, less likely to be artifactual. We identified 624 non-singleton clusters in total. Within these clusters, 90 clusters comprising 1,800 contigs were rich in genes associated with phage/prophage. Absence of known phage genes in the other 534 clusters do not confirm the non existence of novel phage elements especially because the known phage gene databases are sparse. 
 
 <table>
     <tr>
         <td> 
-            <img src="img/Histogram-Phage-Prescence.png" width=275/>
-            <figcaption>Histogram of phages specific and prevalent across the environment.</figcaption> 
+              <img src="img/Histogram-Phage-Prescence.png" width=275/>
+              <p align="center"><em>Histogram of phages specific and prevalent across the environment.</em></p>
         </td>
         <td>   
         </td>
