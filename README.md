@@ -9,7 +9,7 @@ Whole metagenomic shotgun sequencing datasets of mixed microbial community sampl
 
 In this study, we show that a subset of structural variants discovered in assembly graphs contain phage-like genomic elements. We applied MetaCarvel1, a tool developed in our lab for de novo scaffolding and reference independent variant discovery in metagenomic shotgun sequencing datasets, to 208 stool samples from the Human Microbiome Project (HMP)2. MetaCarvel constructs directed assembly graphs, where nodes represent unitigs, sequences that can be unambiguously reconstructed from the sequencing reads, while the edges indicate that the unitigs are adjacent in one or more  organisms in the sample. The adjacency information is inferred either through sequence overlap information or through paired-end read information. 
 
-<center><img src="img/Assembly-Graph-Schematic.png" width=500 /> <center>
+<p align="center"><img src="img/Assembly-Graph-Schematic.png" width=700 /> </p>
 
 We observed contigs with phage elements in insertion-deletion (indel bubbles) and interspersed repeat variants detected by MetaCarvel. An indel bubble occurs when one path through the assembly graph contains the source and sink contigs, while other paths contain additional contigs that could indicate insertion or deletion events in a genome. Interspersed repeats manifest as high centrality nodes consisting of a single contig flanked by multiple different contigs. We believe that indel events could represent host-specific phage that integrate into certain genomes of a single species or strain, while interspersed repeats could represent phage genomes that are shared by many host species. 
 
@@ -30,7 +30,7 @@ This clustering step was intended to identify genomic segments that reoccur acro
 <table>
     <tr>
         <td> 
-              <p align="center"><img src="img/Histogram-Phage-Prescence.png" width=275/></p>
+              <p align="center"><img src="img/Histogram-Phage-Prescence.png" width=375/></p>
               <p align="center"><em>Histogram of phages specific and prevalent across the environment.</em></p>
         </td>
         <td>   
