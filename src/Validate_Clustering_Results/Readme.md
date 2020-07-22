@@ -12,14 +12,14 @@ For the 208 stool samples from the HMP dataset, we performed the above experimen
 <table>
     <tr>
         <td> 
-            <img src="../../img/Cluster_Counts_Cophenetic_Distance.png" width=400/>
-            <center><figcaption>Identifying the number of clusters.</figcaption><center>
+            <p align="center"><img src="../../img/Cluster_Counts_Cophenetic_Distance.png" width=400/></p>
+            <p align="center"><em>Identifying the number of clusters.</em><center></p>
         </td>
         <td>   
         </td>
         <td> 
-            <img src="../../img/Cluster_Singleton.png" width=400/> 
-            <center><figcaption>Analysis of Cluster-50</figcaption><center>
+            <p align="center"><img src="../../img/Cluster_Singleton.png" width=400/></p> 
+            <p align="center"><em>Analysis of Cluster-50</em></p>
         </td>
     </tr>
 </table>
