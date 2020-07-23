@@ -18,7 +18,7 @@ In this phase of the pipeline we cluster the contigs identified in the previous 
 5. **Build_Distance_Matrix.sh** - This bash script invokes "Build_Distance_Matrix.py" which creates the pairwise-mash distance matrix, which is then used to clusters the contigs. 
 
 
-6. **Cluster.sh** - This script invokes the script Perform_Clustering.py which clusters the contigs based on different clustering methonds namely single linkage, complete linkage, average linkage, ward's, centroid and weighted linkage. 
+6. **Cluster.sh** - This script invokes the script Perform_Clustering.py which clusters the contigs based on different clustering methods namely single linkage, complete linkage, average linkage, Ward's, centroid and weighted linkage. 
 
 
 7. **Cluster_Results.py** - This script smmarizes the output from the previous step and writes output to a ".csv" file which is used for validation. 
