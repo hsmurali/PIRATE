@@ -22,8 +22,3 @@ In this phase of the pipeline we cluster the contigs identified in the previous 
 
 
 7. **Cluster_Results.py** - This script smmarizes the output from the previous step and writes output to a ".csv" file which is used for validation. 
-
-
-```python
-
-```
