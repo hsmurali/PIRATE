@@ -112,20 +112,8 @@ for contig in contigs:
             genes_counter[gene] = 1
 
 
-# In[158]:
-
-
 df_genes_50 = pd.DataFrame(data = {'Contigs':contigs, 'Genes':gene_ids})
-
-
-# In[159]:
-
-
 df_genes_50 = df_genes_50.sort_values(by = 'Contigs')
-
-
-# In[160]:
-
 
 df_genes_counter = pd.DataFrame()
 df_genes_counter['Genes'] = genes_counter.keys()
@@ -135,50 +123,9 @@ df_genes_counter = pd.merge(df_genes_counter, df_uniprot_metadata, left_on= ['Ge
                             right_on = ['Phage_ID'], how ='left')
 del df_genes_counter['Phage_ID'], df_genes_counter['Organism Name']
 
-
-# In[161]:
-
-
 df_genes_counter_grouped = df_genes_counter.groupby('Protein Identifier').sum()
 df_genes_counter_grouped = df_genes_counter_grouped.rename(columns = 
                                                            {'Counter':'Number of contigs containing the Protein'})
 
 
-# In[162]:
-
-
-df_genes_counter_grouped.sort_values(by = 'Number of contigs containing the Protein', ascending = False).head(10)
-
-
-# In[163]:
-
-
-A = set({})
-for x in df_genes_50['Contigs'].tolist():
-    x = x.split('_')
-    A.add(x[0])
-
-
-# In[164]:
-
-
-len(A)
-
-
-# In[153]:
-
-
 df_uniprot_hits_ctr = df_uniprot_hits[['ContigID','Complete_0.61']].groupby('Complete_0.61').count()
-
-
-# In[156]:
-
-
-df_uniprot_hits_ctr.sort_values(by = 'ContigID', ascending = False)
-
-
-# In[ ]:
-
-
-
-
