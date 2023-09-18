@@ -11,11 +11,11 @@ if __name__ == "__main__":
 	parser.add_argument("-l", "--contig_list", help="A test file of contigs to be considered for putative phage discovery", required=True)
 	parser.add_argument("-o", "--output_directory", help="Directory to write outputs to.", required=True)
 
-	parser.add_argument("-c", "--breadth_coverage_cutoff", help="breadth of coverage to filter contigs.", default = 50, required=False)
-	parser.add_argument("-len", "--min_len", help="minimum length of contigs to considered to retain for further analyses.", default = 3000, required=False)
-	parser.add_argument("-t","--num_threads", help="Number of threads", default = 8, required=False)
+	parser.add_argument("-c", "--breadth_coverage_cutoff", help="breadth of coverage to filter contigs. (default = 50)", default = 50, required=False)
+	parser.add_argument("-len", "--min_len", help="minimum length of contigs to considered to retain for further analyses. (default = 3000)", default = 3000, required=False)
+	parser.add_argument("-t","--num_threads", help="Number of threads. (default = 8)", default = 8, required=False)
 	
-	parser.add_argument("-pre","--prefix", help = "Prefix for output files", default = "PIRATE.preprocess", required = False)
+	parser.add_argument("-pre","--prefix", help = "Prefix for output files (default = PIRATE.preprocess)", default = "PIRATE.preprocess", required = False)
 	
 	args = parser.parse_args()
 

@@ -8,16 +8,16 @@ if __name__ == "__main__":
 											"and variants were called out. After filtering out contigs found in databases with sufficient coverage, we run PIRATE.")
 
 	parser.add_argument("-i", "--input", help="A fasta file of sequences to cluster", required=True)
-	parser.add_argument("-d", "--percent_identity_cutoff", help="percent identity to keep contigs within the same cluster.", default = 95, required=False)
+	parser.add_argument("-d", "--percent_identity_cutoff", help="percent identity to keep contigs within the same cluster.(default = 95)", default = 95, required=False)
 	parser.add_argument("-c", "--containment_cutoff", 
-						help="Fraction of the query contig to be covered by the centroid contig to retain within the cluster.", 
+						help="Fraction of the query contig to be covered by the centroid contig to retain within the cluster.(default = 0.80)", 
 						default = 0.80, required=False)
 	parser.add_argument("-o", "--overhang", 
-						help="Length of the query contig overhanging with respect to the cluster centorid.", 
+						help="Length of the query contig overhanging with respect to the cluster centorid. (default = 100bp)", 
 						default = 100, required=False)
-	parser.add_argument("-t","--num_threads", help="Number of threads", default = 8, required=False)
+	parser.add_argument("-t","--num_threads", help="Number of threads. (default = 8)", default = 8, required=False)
 	parser.add_argument("-out","--output_directory", help="Location to write the outputs to", required = True)
-	parser.add_argument("-pre","--prefix", help = "Prefix for output files", default = "PIRATE", required = False)
+	parser.add_argument("-pre","--prefix", help = "Prefix for output files. (default = PIRATE)", default = "PIRATE", required = False)
 	args = parser.parse_args()
 
 	Check_Dependencies()
